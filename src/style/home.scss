@@ -1,0 +1,72 @@
+.homepage-wrapper {
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+
+    .title {
+        display: flex;
+        justify-content: left;
+        margin-left: 200px;
+        align-items: center;
+        font-size: 3rem;
+
+        @media (max-width: 600px) {
+            margin-left: 80px
+        }
+    }
+
+    .login-wrapper {
+        display: grid;
+        justify-content: left;
+        margin-left: 400px;
+        align-items: center;
+        padding-bottom: 250px;
+        font-size: 2rem;
+
+        @media (max-width: 827px) {
+            margin-left: 220px;
+        }
+
+        @media (max-width: 600px) {
+            margin-left: 80px
+        }
+
+        .form {
+            display: grid;
+        }
+    }
+
+    .error-text {
+        color: rgb(248, 18, 18);
+    }
+
+}
+
+.textarea {
+    border: 1px solid rgb(76, 179, 179);
+    background-color: transparent;
+    font-size: 1.5rem;
+    height: 15px;
+    outline: none;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.button {
+    font-size: 2rem;
+    margin-top: 10px;
+    border: none;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(113, 194, 194);
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    background-color: rgb(17, 158, 158);
+}
